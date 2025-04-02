@@ -30,12 +30,12 @@ modern_content = pd.DataFrame({
         'https://www.aljazeera.com/wp-content/uploads/2024/05/2024-05-07T090647Z_692266115_RC2LL7AJBGKF_RTRMADP_3_RUSSIA-POLITICS-PUTIN-1715074442.jpg?resize=1800%2C1800',
         'https://ichef.bbci.co.uk/images/ic/1200x675/p0f7zpfz.jpg',
         'https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://media.easy-peasy.ai/6beddadf-a052-4a66-b134-2d38e9251885/9737d998-df81-4176-b3b1-9c657fa273ef.png',
-        'https://media.gettyimages.com/photos/berlin-wall-picture-id157387347?s=2048x2048',
-        'https://media.gettyimages.com/photos/kamala-harris-speaks-during-a-campaign-event-picture-id1227922017?s=2048x2048',
-        'https://media.gettyimages.com/photos/actors-perform-in-a-scene-from-the-play-hamlet-picture-id517331310?s=2048x2048',
-        'https://media.gettyimages.com/photos/vintage-radio-picture-id157482029?s=2048x2048',
-        'https://media.gettyimages.com/photos/allied-troops-in-landing-craft-picture-id2666288?s=2048x2048',
-        'https://media.gettyimages.com/photos/stack-of-old-books-picture-id157482029?s=2048x2048'
+        'https://cdnsecakmi.kaltura.com/p/1067292/sp/106729200/thumbnail/entry_id/0_6fkd8dx8/version/100001/width/252',
+        'https://ichef.bbci.co.uk/news/480/cpsprodpb/4605/live/676dd490-50f7-11ef-882f-654b657564c8.jpg.webp',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7SpNY-vgjOoVyhTXlk6Wq31mnxW9mdu5V1w&s',
+        'https://www.rochester.edu/newscenter/wp-content/uploads/2015/09/pocket_radio_theater.jpg',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx35tpecFLGyiKO2JvelxmfjN6JlVKwqVciw&s',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScvn2xSg-ADg3fMDk8SO8k8N86FkjnmlXeLA&s'
     ]
 })
 
@@ -78,8 +78,8 @@ archive_content = pd.DataFrame({
         'https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/BC08/production/_89463184_hi020216746.jpg',
         'https://cdn2.rsc.org.uk/sitefinity/images/productions/productions-2009-and-before/hamlet/laertes-duels-with-hamlet-1961.tmb-img-820.jpg?sfvrsn=82af3421_1',
         'https://www.swingstreetradio.org/wp-content/uploads/2016/03/oldradio2.jpg',
-        'https://media.gettyimages.com/photos/world-war-ii-news-broadcast-picture-id157482029?s=2048x2048',
-        'https://media.gettyimages.com/photos/british-author-portrait-picture-id157482029?s=2048x2048'
+        'https://static.files.bbci.co.uk/webarchive/asset/c6e31fbff4000df1bd766d9d46f35441a6fdf4eaf9fafce6656846ef9bd35713.jpeg',
+        'https://cdn.britannica.com/82/138382-050-2E8FCB26/Virginia-Woolf.jpg'
     ]
 })
 
@@ -142,7 +142,7 @@ if selected_show:
         st.markdown(f"""
             <div style="display: flex; align-items: center; padding: 10px 0;">
                 <div style="width: 20%; text-align: center;">
-                    <h4>{ranking_emojis[rank]}</h4>
+                    <h1>{ranking_emojis[rank]}</h1>
                 </div>
                 <div style="flex: 1;">
                     <h4><strong>{show}</strong></h4>
